@@ -17,7 +17,8 @@ input {
   border: none;
   padding: 10px;
   font-size: 18px;
-  border-radius: 5px;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 
 button {

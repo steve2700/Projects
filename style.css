@@ -10,4 +10,21 @@ div {
 p {
   margin-bottom: 10px;
 }
+input {
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button {
+  width: 100px;
+  background-color: #000088;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
 

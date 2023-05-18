@@ -60,4 +60,9 @@ div#container {
   cursor: pointer;
   padding: 10px;
 }
+#weatherChartContainer {
+  margin-top: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
 

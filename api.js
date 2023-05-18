@@ -1,7 +1,7 @@
 var api = {
-  getWeather: function(city) {
+  getWeatherForecast: function(city, appid) {
     $.ajax({
-      url: "https://api.openweathermap.org/data/2.5/onecall?q=" + city + "&exclude=current,minutely,hourly,alerts&appid=5ec5845a9b7c8e9451636b9e096d36ab",
+      url: "https://api.openweathermap.org/data/2.5/onecall?q=" + city + "&exclude=current,minutely,hourly,alerts&appid=" + appid,
       dataType: "json"
     })
     .done(function(response) {
@@ -69,6 +69,6 @@ function displayWeather(weatherData) {
 var button = document.querySelector("button[type='submit']");
 button.addEventListener("click", function() {
   var city = document.getElementById("city").value;
-  api.getWeather(city);
+  api.getWeatherForecast(city, "5ec5845a9b7c8e9451636b9e096d36ab");
 });
 

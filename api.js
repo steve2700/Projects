@@ -36,5 +36,5 @@ function setBackgroundBasedOnWeather(weatherCondition) {
   } else if (weatherCondition === 'Clouds') {
     backgroundImageUrl = 'https://media.istockphoto.com/id/1345919662/photo/panoramic-view-of-clear-blue-sky-and-clouds-clouds-with-background.jpg?s=1024x1024&w=is&k=20&c=SqQIXcNNk38ddmgWJIzLbld_I5CzwwU0iVqeM8I87Ts=';
   } else {
-    backgroundImageUrl = 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx
+    backgroundImageUrl = 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx'
 

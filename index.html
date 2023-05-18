@@ -1,21 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>Real-Time Weather Information</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
 <script src="api.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
 </head>
 <body>
 <h1>Real-Time Weather Information</h1>
 <div id="container">
-
-	
-	<input type="text" id="city">
-<button onclick="api.getWeather(document.getElementById('city').value)">Get Weather</button>
-
-<div id="weather"></div>
+  <i class="fa fa-search"></i>
+  <input type="text" id="city" placeholder="Enter a city">
+  <button type="submit">Get Weather</button>
+  <div id="weather"></div>
+</div>
 </body>
 </html>
 

@@ -18,6 +18,7 @@ var api = {
     });
   }
 };
+
 function displayWeather(weatherData) {
   var div = document.getElementById("weather");
   div.innerHTML = "<h2>" + weatherData.name + "</h2><p>" + weatherData.weather[0].description + "</p><p>" + (weatherData.main.temp - 273.15).toFixed(2) + "°C</p>";
@@ -64,4 +65,10 @@ function displayWeather(weatherData) {
   setBackgroundBasedOnWeather(weatherData.weather[0].main);
 }
 
+// Add event listener for the "Get Weather" button
+var button = document.querySelector("button[type='submit']");
+button.addEventListener("click", function() {
+  var city = document.getElementById("city").value;
+  api.getWeather(city);
+});
 

@@ -29,4 +29,9 @@ button {
   border: none;
   cursor: pointer;
 }
+div#container {
+  width: 500px;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+}
 

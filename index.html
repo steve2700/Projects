@@ -4,11 +4,13 @@
 <title>Web Service</title>
 <link rel="stylesheet" href="style.css">
 <script src="api.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
 <h1>Web Service</h1>
 <input type="text" id="city">
-<button onclick="api.displayWeather(document.getElementById('city').value)">Get Weather</button>
+<button onclick="api.getWeather(document.getElementById('city').value)">Get Weather</button>
 
 <div id="weather"></div>
 </body>

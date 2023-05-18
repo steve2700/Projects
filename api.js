@@ -9,7 +9,8 @@ var api = {
     // Check the response status code.
     if (response.status === 200) {
       // The request was successful.
-      var weatherData = response.data;
+      var weatherData = response;
+
       console.log(weatherData);
       displayWeather(weatherData);
     } else {

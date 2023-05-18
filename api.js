@@ -25,7 +25,8 @@ var api = {
 
 function displayWeather(weatherData) {
   var div = document.getElementById("weather");
-  div.innerHTML = "<h2>" + weatherData.name + "</h2><p>" + weatherData.weather[0].description + "</p><p>" + (weatherData.main.temp - 273.15) + "°C</p>";
+  div.innerHTML = "<h2>" + weatherData.name + "</h2><p>" + weatherData.weather[0].description + "</p><p>" + (weatherData.main.temp - 273.15).toFixed(2) + "°C</p>";
+
 
   
 

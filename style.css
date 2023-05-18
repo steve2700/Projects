@@ -37,15 +37,27 @@ div#container {
   text-align: center;
 }
 
-#weather {
-  background-image: url(https://images.unsplash.com/photo-1601297183305-6df142704ea2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xlYXIlMjBza3l8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60);
-  background-size: cover;
-  height: 100px;
-  width: 100%;
-  margin-top: 20px;
+.input-group {
+  display: flex;
+  align-items: center;
 }
-i.fa-search {
-  float: left;
-  margin-right: 10px;
+
+.input-group input {
+  flex: 1;
+  text-align: center;
+  background-color: skyblue;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.input-group button {
+  background-color: #000088;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
 }
 

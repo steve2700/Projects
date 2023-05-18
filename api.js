@@ -71,4 +71,4 @@ button.addEventListener("click", function() {
   var city = document.getElementById("city").value;
   api.getWeather(city);
 });
-With this updated api.js code, the getWeather function will be called when the "Get Weather" button is clicked. It retrieves the weather data for the specified city and then calls the display
+

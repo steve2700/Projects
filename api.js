@@ -1,7 +1,7 @@
 var api = {
   getWeather: function(city) {
     $.ajax({
-      url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=5ec5845a9b7c8e9451636b9e096d36ab",
+      url: "https://api.openweathermap.org/data/2.5/onecall?q=" + city + "&exclude=current,minutely,hourly,alerts&appid=5ec5845a9b7c8e9451636b9e096d36ab",
       dataType: "json"
     })
     .done(function(response) {
@@ -71,4 +71,4 @@ button.addEventListener("click", function() {
   var city = document.getElementById("city").value;
   api.getWeather(city);
 });
-
+With this updated api.js code, the getWeather function will be called when the "Get Weather" button is clicked. It retrieves the weather data for the specified city and then calls the display

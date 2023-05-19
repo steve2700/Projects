@@ -48,4 +48,12 @@ function displayWeather(weatherData) {
   weatherContainer.style.backgroundColor = "#f5f5f5";
   weatherContainer.style.textAlign = "center";
 }
+// Add event listener for the "Get Weather" button
+var button = document.querySelector("button[type='submit']");
+button.addEventListener("click", function() {
+  var city = document.getElementById("city").value;
+  var apiKey = "5ec5845a9b7c8e9451636b9e096d36ab
+"; // Replace with your actual API key
+  api.getWeatherForecast(city, apiKey);
+});
 

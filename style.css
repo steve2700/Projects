@@ -1,68 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
-div {
-  width: 500px;
-  margin: 0 auto;
+form {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-p {
-  margin-bottom: 10px;
-}
-
-input {
-  text-align: center;
-  width: 50%;
-  background-color: skyblue;
-  border: none;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 8px;
-  margin: 0 auto;
+input[type="text"] {
+    padding: 5px;
+    width: 300px;
 }
 
 button {
-  width: 100px;
-  background-color: #000088;
-  color: white;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
+    padding: 5px 10px;
 }
 
-div#container {
-  width: 500px;
-  margin: 0 auto; /* Center the container horizontally */
-  text-align: center;
-}
-
-.input-group {
-  display: flex;
-  align-items: center;
-}
-
-.input-group input {
-  flex: 1;
-  text-align: center;
-  background-color: skyblue;
-  border: none;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 8px;
-}
-
-.input-group button {
-  background-color: #000088;
-  color: white;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-}
-#weatherChartContainer {
-  margin-top: 20px;
-  width: 500px;
-  margin: 0 auto;
+#recommended-songs {
+    margin-top: 20px;
 }
 

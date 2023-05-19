@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Real-Time Weather Information</title>
-<link rel="stylesheet" href="style.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-<script src="api.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<
+    <title>Music Recommender</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-<h1>Real-Time Weather Information</h1>
-<div id="container">
-  <div class="input-group">
-    <input type="text" id="city" placeholder="Enter a city" class="form-control">
-    <button type="submit">Get Weather</button>
-  </div>
-  <div id="weather"></div>
-  <div id="weatherChartContainer">
-    <canvas id="weatherChart"></canvas>
-  </div>
-</div>
+    <h1>Music Recommender</h1>
+    <form id="liked-songs-form">
+        <label for="liked-songs">Liked Songs:</label>
+        <input type="text" id="liked-songs" name="liked-songs" placeholder="Enter song names">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="recommended-songs"></div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
 

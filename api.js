@@ -52,8 +52,7 @@ function displayWeather(weatherData) {
 var button = document.querySelector("button[type='submit']");
 button.addEventListener("click", function() {
   var city = document.getElementById("city").value;
-  var apiKey = "5ec5845a9b7c8e9451636b9e096d36ab
-"; // Replace with your actual API key
+  var apiKey = "5ec5845a9b7c8e9451636b9e096d36ab"; // Replace with your actual API key
   api.getWeatherForecast(city, apiKey);
 });
 

@@ -24,4 +24,4 @@ https://github.com/steve2700/Projects
 - Implement server-side validation to enhance security.
 - Add more customization options like color schemes and background noise.
 - Explore integration as a reusable component or provide an API for easy integration.
-<img src = "blob:https://web.whatsapp.com/48a3aea0-5982-49ac-aad2-a4270986972e">
+<img src = "https://web.whatsapp.com/48a3aea0-5982-49ac-aad2-a4270986972e">

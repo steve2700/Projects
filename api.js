@@ -56,3 +56,4 @@ button.addEventListener("click", function() {
   api.getWeatherForecast(city, apiKey);
 });
 
+

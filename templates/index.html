@@ -6,50 +6,39 @@
 </head>
 <body>
     <header>
-        <h1 style="color:white">Music Recommender</h1>
-        <a href="#">Login</a>
-        <a href="#">About</a>
+        <div class="header-container">
+            <h1 class="header-text">Music Recommender</h1>
+            <nav>
+                <a href="#" class="header-link">Login</a>
+                <a href="#" class="header-link">About</a>
+            </nav>
+        </div>
     </header>
     <main>
-        <form id="liked-songs-form">
-            <label for="liked-songs">Liked Songs:</label>
-            <input type="text" id="liked-songs" name="liked-songs" placeholder="Enter song names">
-            <button type="submit">Submit</button>
-        </form>
+        <div class="main-container">
+            <form id="liked-songs-form">
+                <label for="liked-songs">Liked Songs:</label>
+                <input type="text" id="liked-songs" name="liked-songs" placeholder="Enter song names">
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
 
-        <div id="recommended-songs">
-            <h2>Recommended Songs</h2>
-            <ul>
-                <li>
-                    <div class="song">
-                        <img src="https://i.imgur.com/000000.jpg" class="cover">
-                        <div class="title">Song Title</div>
-                        <div class="artist">Artist Name</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="song">
-                        <img src="https://i.imgur.com/111111.jpg" class="cover">
-                        <div class="title">Song Title</div>
-                        <div class="artist">Artist Name</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="song">
-                        <img src="https://i.imgur.com/222222.jpg" class="cover">
-                        <div class="title">Song Title</div>
-                        <div class="artist">Artist Name</div>
-                    </div>
-                </li>
-            </ul>
+            <div id="recommended-songs">
+                <h2>Recommended Songs</h2>
+                <ul id="recommended-songs-list"></ul>
+            </div>
         </div>
     </main>
     <footer>
-        <a href="#">Login</a>
-        <a href="#">About</a>
-        <p>Copyright &copy; 2023 Nyaruwata Stewart</p>
+        <div class="footer-container">
+            <nav>
+                <a href="#" class="footer-link">Login</a>
+                <a href="#" class="footer-link">About</a>
+            </nav>
+            <p class="footer-text">© 2023 Nyaruwata Stewart</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
 

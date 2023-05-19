@@ -1,73 +1,122 @@
+/* General Styles */
+
 body {
-    background-color: #ffffff;
+    margin: 0;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #000000;
+    background-color: #1e2125;
     color: #ffffff;
-    height: 50px;
-    margin: 0;
-    padding: 0 20px;
-    text-align: center;
 }
 
-h1 {
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    margin: 0;
+.container {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
 }
 
+/* Header Styles */
+
+header {
+    background-color: #191414;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* Main Styles */
+
+main {
+    padding: 20px;
+}
+
+.main-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
 form {
-    text-align: center;
     margin-bottom: 20px;
 }
 
-input[type="text"] {
-    padding: 5px;
-    width: 300px;
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333333;
 }
 
-button {
-    padding: 5px 10px;
-    color: #ffffff;
-    background-color: #000000;
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
 }
+
+.submit-button {
+    background-color: #1db954;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Recommended Songs Styles */
 
 #recommended-songs {
     margin-top: 20px;
 }
 
-p {
+h2 {
+    font-size: 24px;
     margin: 0;
-    padding: 0;
 }
 
-.song {
+/* Footer Styles */
+
+footer {
+    background-color: #191414;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px;
 }
 
-.song .title {
-    font-size: 16px;
-}
-
-.song .artist {
+.footer-link {
+    color: #b3b3b3;
+    text-decoration: none;
+    margin: 0 10px;
     font-size: 14px;
-    color: #999999;
 }
 
-.song .cover {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 10px;
+.footer-text {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin: 0;
 }
 
